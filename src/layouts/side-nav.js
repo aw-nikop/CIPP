@@ -217,27 +217,7 @@ export const SideNav = (props) => {
           {profile?.clientPrincipal && (
             <>
               <Divider />
-              <Typography
-                color="text.secondary"
-                variant="caption"
-                sx={{ lineHeight: 4, textAlign: "center" }}
-              >
-                This application is sponsored by
-              </Typography>
-              <Box
-                sx={{
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <img
-                  src={randomimg.imagesrc}
-                  alt="sponsor"
-                  style={{ cursor: "pointer" }}
-                  onClick={() => window.open(randomimg.link)}
-                  width={"100px"}
-                />
-              </Box>
+
             </>
           )}
         </Box>
